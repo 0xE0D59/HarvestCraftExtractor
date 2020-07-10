@@ -1,0 +1,12 @@
+## Here is the template that the crafts will be exported to. You can use tags to insert the count of specified crafts.
+## Tags are located in the CraftClassification.txt file.
+
+WTS Crafts: 
+Augments:
+- caster          x $aug_caster -> 50c
+- life            x $aug_life > [ 50c ]
+- lightning       x $aug_lightning > [ 50c ]
+- physical        x $aug_physical > [ 50c ]
+- caster lucky    x $aug_caster_lucky > [ 60c ]
+- lightning lucky x $aug_lightning_lucky > [ 60c ]
+- physical lucky  x $aug_physical_lucky > [ 60c ]

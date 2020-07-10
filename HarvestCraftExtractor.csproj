@@ -79,6 +79,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CraftClassification.txt" />
+    <Content Include="CraftListTemplate.txt" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
