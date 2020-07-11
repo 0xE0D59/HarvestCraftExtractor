@@ -29,7 +29,7 @@ aug_chaos_lucky|Augment an item with a new Chaos modifier with Lucky values
 aug_chaos|Augment an item with a new Chaos modifier
 aug_cold_lucky|Augment an item with a new Cold modifier with Lucky values
 aug_cold|Augment an item with a new Cold modifier
-aug_critical_lucky|Augment an item with a new Critical modifier with Lucky values
+aug_critical_lucky|Augment an item with a new Critical modifier with lucky values
 aug_critical|Augment an item with a new Critical modifier
 aug_defence_lucky|Augment an item with a new Defence modifier with Lucky values
 aug_defence|Augment an item with a new Defence modifier
@@ -46,12 +46,11 @@ aug_random_lucky|Augment a Rare item with a new modifier, with Lucky modifier va
 aug_speed|Augment an item with a new Speed modifier
 cards_gamble|Sacrifice up to half a stack of Divination Cards to receive between 0 and twice that amount of the same Card
 change_cold_fire|Change a modifier that grants Cold Resistance into a similar-tier modifier that grants Fire Resistance
+change_cold_lightning|Change a modifier that grants Cold Resistance into a similar-tier modifier that grants Lightning Resistance
 change_fire_cold|Change a modifier that grants Fire Resistance into a similar-tier modifier that grants Cold Resistance
 change_fire_lightning|Change a modifier that grants Fire Resistance into a similar-tier modifier that grants Lightning Resistance
-change_lightning_fire|Change a modifier that grants Lightning Resistance into a similar-tier modifier that grants Fire Resistance
-change_lightning_cold|Change a modifier that grants Lightning Resistance into a similar-tier modifier that grants Cold Resistance
-change_cold_lightning|Change a modifier that grants Cold Resistance into a similar-tier modifier that grants Lightning Resistance
 change_harbringer|Change a Harbinger Unique or Unique Piece into a random Beachhead Map
+change_lightning_cold|Change a modifier that grants Lightning Resistance into a similar-tier modifier that grants Cold Resistance
 change_lightning_fire|Change a modifier that grants Lightning Resistance into a similar-tier modifier that grants Fire Resistance
 enchant_body_cold|Enchant Body Armour. Quality does not increase its Defences, grants 1% Cold Resistance per 2% quality
 enchant_body_fire|Enchant Body Armour. Quality does not increase its Defences, grants 1% Fire Resistance per 2% quality
@@ -59,6 +58,11 @@ enchant_body_life|Enchant Body Armour. Quality does not increase its Defences, g
 enchant_body_lightning|Enchant Body Armour. Quality does not increase its Defences, grants 1% Lightning Resistance per 2% quality
 enchant_body_strength|Enchant Body Armour. Quality does not increase its Defences, grants +1 Strength per 2% quality
 enchant_weapon_range|Enchant a Melee Weapon. Quality does not increase its Physical Damage, has +1 Weapon Range per 10% Quality
+exchange_alteration_chaos|Exchange 10 Orbs of Alteration for 10 Chaos Orbs
+exchange_bestiary|Change a Unique Bestiary item or item with an Aspect into Lures of the same beast family
+exchange_gem|Change a Gem into another Gem, carrying over experience and quality if possible
+exchange_pale|Change a Pale Court Key into another random Pale Court Key
+exchange_resonator_fossil|Exchange a Resonator for a Fossil or vice versa. Rare outcomes are more likely with rare inputs
 fracture_prefix|Fracture a random Prefix on an item with at least 3 Prefixes. This cant be used on Influenced, Synthesised, or Fractured items.
 fracture_random|Fracture a random modifier on an item with at least 5 modifiers, locking it in place. This can't be used on Influenced, Synthesised, or Fractured items
 fracture_suffix|Fracture a random Suffix on an item with least 3 Suffixes. This cant be used on Influenced, Synthesised, or Fractured items
@@ -110,6 +114,11 @@ remove_life|Remove a random Life modifier from an item
 remove_lightning|Remove a random Lightning modifier from an item
 remove_physical|Remove a random Physical modifier from an item
 remove_speed|Remove a random Speed modifier from an item
+reroll_all_lucky|Reroll the values of Prefix, Suffix and Implicit modifiers on a Rare item, with Lucky modifier values
+sacrifice_gem_facetors_20|Sacrifice a Corrupted Gem to gain 20% of the gem's total experience stored as a Facetor's Lens
+sacrifice_gem_facetors_30|Sacrifice a Corrupted Gem to gain 30% of the gem's total experience stored as a Facetor's Lens
+sacrifice_gem_facetors_50|Sacrifice a Corrupted Gem to gain 50% of the gem's total experience stored as a Facetor's Lens
+sacrifice_offering|Change an Offering to the Goddess into a Dedication to the Goddess
 sacrifice_weaponarmor_amulet|Sacrifice a Weapon or Armour to create an Amulet with similar modifiers
 set_implicit_abysstimeless|Set a new Implicit modifier on an Abyss Jewel or Timeless Jewel
 set_implicit_cluster|Set a new Implicit modifier on a Cluster Jewel
@@ -122,6 +131,7 @@ socket_colour_white|Reforge the colour of a non-white socket on an item, turning
 socket_count_six|Set an item to six sockets
 socket_link_five|Reforge the links between sockets on an item, linking five sockets
 socket_link_six|Reforge the links between sockets on an item, linking six sockets
+upgrade_essence|Upgrade the tier of an Essence
 upgrade_magic_rare|Upgrade a Magic item to a Rare item, adding three random modifiers";
 
             public const string CraftListTemplate =
