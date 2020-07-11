@@ -51,10 +51,19 @@ namespace HarvestCraftExtractor
         public override bool Initialise()
         {
             lastExtractTime = DateTime.Now;
+            EnsureFileCoherence();
             LoadCraftTags();
             LogMessage($"Loaded {(CraftsToTags != null ? CraftsToTags.Count.ToString() : "0")} tagged crafts.");
             Input.RegisterKey(Settings.ExtractHarvestsKey);
             return base.Initialise();
+        }
+
+        private void EnsureFileCoherence()
+        {
+            if (!File.Exists(PATH_FILE_CRAFT_CLASSIFICATION))
+                File.WriteAllText(PATH_FILE_CRAFT_CLASSIFICATION, Helpers.FileContent.CraftClassification);
+            if (!File.Exists(PATH_FILE_CRAFT_TEMPLATE))
+                File.WriteAllText(PATH_FILE_CRAFT_TEMPLATE, Helpers.FileContent.CraftListTemplate);
         }
 
         private void LoadCraftTags()
@@ -277,7 +286,8 @@ namespace HarvestCraftExtractor
 
             if (Settings.ListUnusedCrafts.Value)
             {
-                ISet<string> missingInTemplateTags = classifiedCrafts.Keys.Except(replacedTags).OrderBy(k => k).Distinct().ToHashSet();
+                ISet<string> missingInTemplateTags =
+                    classifiedCrafts.Keys.Except(replacedTags).OrderBy(k => k).Distinct().ToHashSet();
                 if (missingInTemplateTags.Count > 0)
                     LogMessage(
                         $"{Environment.NewLine}The following crafts you have are not used in the template. Consider adding them: {Environment.NewLine}{string.Join(Environment.NewLine, missingInTemplateTags)}{Environment.NewLine}",
