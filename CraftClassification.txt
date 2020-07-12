@@ -1,5 +1,6 @@
 # Format:
 # craft_tag|tag_description
+add_influence|Add a random Influence to Normal, Magic or Rare Armour that isn't influenced
 aug_attack_lucky|Augment an item with a new Attack modifier with Lucky values
 aug_attack|Augment an item with a new Attack modifier
 aug_caster_lucky|Augment a Magic or Rare item with a new Caster modifier with Lucky values
