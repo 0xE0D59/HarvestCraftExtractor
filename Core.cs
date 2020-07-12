@@ -55,6 +55,7 @@ namespace HarvestCraftExtractor
             LoadCraftTags();
             LogMessage($"Loaded {(CraftsToTags != null ? CraftsToTags.Count.ToString() : "0")} tagged crafts.");
             Input.RegisterKey(Settings.ExtractHarvestsKey);
+            Settings.ExtractHarvestsKey.OnValueChanged += () => Input.RegisterKey(Settings.ExtractHarvestsKey);
             return base.Initialise();
         }
 
