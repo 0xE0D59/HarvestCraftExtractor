@@ -65,6 +65,7 @@ randomise_physical|Randomise the numeric values of the random Physical modifiers
 randomise_speed|Randomise the numeric values of the random Speed modifiers on a Magic or Rare item
 reforge_critical_common|Reforge a Rare item with new random modifiers, including a Critical modifier. Critical modifiers are more common
 reforge_critical|Reforge a Rare item with new random modifiers, including a Critical modifier
+reforge_prefixes|Reforge a Rare item, keeping all Prefixes
 reforge_same_modifiers|Reforge a Rare item, being much more likely to receive the same modifier types
 reforge_suffixes|Reforge a Rare item, keeping all Suffixes
 remove_add_attack|Remove a random Attack modifier from an item and add a new Attack modifier
@@ -105,6 +106,7 @@ reroll_all_lucky|Reroll the values of Prefix, Suffix and Implicit modifiers on a
 sacrifice_catalyst|Change a stack of Catalysts into a different type of Catalyst
 sacrifice_delirium|Change a stack of Delirium Orbs into a different type of Delirium Orb
 sacrifice_essence|Change a stack of Essences into a different type of the same tier
+sacrifice_fossil|Change a stack of Fossils into a different type of Fossil
 sacrifice_gem_facetors_20|Sacrifice a Corrupted Gem to gain 20% of the gem's total experience stored as a Facetor's Lens
 sacrifice_gem_facetors_30|Sacrifice a Corrupted Gem to gain 30% of the gem's total experience stored as a Facetor's Lens
 sacrifice_gem_facetors_40|Sacrifice a Corrupted Gem to gain 40% of the gem's total experience stored as a Facetor's Lens
@@ -113,6 +115,14 @@ sacrifice_gem_prisms_20|Sacrifice a Corrupted Gem to gain 20% of the gem's quali
 sacrifice_gem_prisms_30|Sacrifice a Corrupted Gem to gain 30% of the gem's quality as Gemcutter's Prisms
 sacrifice_gem_prisms_40|Sacrifice a Corrupted Gem to gain 40% of the gem's quality as Gemcutter's Prisms
 sacrifice_gem_prisms_50|Sacrifice a Corrupted Gem to gain 50% of the gem's quality as Gemcutter's Prisms
+sacrifice_map_ambush|Sacrifice a Map. Add a free Infused Ambush craft to your Map device
+sacrifice_map_anarchy|Sacrifice a Map. Add a free Infused Anarchy craft to your Map device
+sacrifice_map_bloodlines|Sacrifice a Map. Add a free Infused Bloodlines craft to your Map device
+sacrifice_map_domination|Sacrifice a Map. Add a free Infused Domination craft to your Map device
+sacrifice_map_harbringer|Sacrifice a Map. Add a free Infused Harbringer craft to your Map device
+sacrifice_map_nemesis|Sacrifice a Map. Add a free Infused Nemesis craft to your Map device
+sacrifice_map_perandus|Sacrifice a Map. Add a free Infused Perandus craft to your Map device
+sacrifice_map_rampage|Sacrifice a Map. Add a free Infused Rampage craft to your Map device
 sacrifice_offering_dedication|Change an Offering to the Goddess into a Dedication to the Goddess
 sacrifice_offering_tribute|Change an Offering to the Goddess into a Tribute to the Goddess
 sacrifice_oil|Change a stack of Oils into a different colour of Oil
