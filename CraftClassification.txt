@@ -1,6 +1,7 @@
 # Format:
 # craft_tag|tag_description
-add_influence|Add a random Influence to Normal, Magic or Rare Armour that isn't influenced
+add_influence_armour|Add a random Influence to Normal, Magic or Rare Armour that isn't influenced
+add_influence_weapon|Add a random Influence to a Normal, Magic or Rare Weapon that isn't influenced
 aug_attack_lucky|Augment an item with a new Attack modifier with Lucky values
 aug_attack|Augment an item with a new Attack modifier
 aug_caster_lucky|Augment a Magic or Rare item with a new Caster modifier with Lucky values
@@ -37,6 +38,7 @@ enchant_body_fire|Enchant Body Armour. Quality does not increase its Defences, g
 enchant_body_life|Enchant Body Armour. Quality does not increase its Defences, grants +1 Maximum Life per 2% quality
 enchant_body_lightning|Enchant Body Armour. Quality does not increase its Defences, grants 1% Lightning Resistance per 2% quality
 enchant_body_strength|Enchant Body Armour. Quality does not increase its Defences, grants +1 Strength per 2% quality
+enchant_body_dexterity|Enchant Body Armour. Quality does not increase its Defences, grants +1 Dexterity per 2% quality
 enchant_weapon_range|Enchant a Melee Weapon. Quality does not increase its Physical Damage, has +1 Weapon Range per 10% Quality
 exchange_alchemy_chisel|Exchange 10 Orbs of Alchemy for 20 Cartographer's Chisels
 exchange_alteration_chaos|Exchange 10 Orbs of Alteration for 10 Chaos Orbs
